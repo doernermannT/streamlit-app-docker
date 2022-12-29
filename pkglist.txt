@@ -1,0 +1,16 @@
+dnf
+git
+libXScrnSaver
+libXcomposite
+libXcursor
+libXdamage
+libXi
+libXrandr
+libXtst
+python38
+tar
+vim
+wget
+python38
+python38-devel
+unixODBC-devel

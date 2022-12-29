@@ -14,13 +14,14 @@ repos:
     hooks:
     -   id: add-trailing-comma
         args: [--py36-plus]
-# Lint: Dockerfile
-- repo: https://github.com/hadolint/hadolint.git
-  rev: v2.8.0
-  hooks:
-    - id: hadolint-docker
-      entry: hadolint/hadolint:v2.8.0 hadolint
-      args: ["--ignore=DL3008", "--ignore=DL3013", "--ignore=DL3018"]
+
+# # Lint: Dockerfile
+# - repo: https://github.com/hadolint/hadolint.git
+#   rev: v2.6.0
+#   hooks:
+#     - id: hadolint-docker
+#       # FIXME: remove after https://github.com/hadolint/hadolint/issues/628 is resolved
+
 # # Lint: YAML
 # - repo: https://github.com/adrienverge/yamllint.git
 #   rev: v1.26.3

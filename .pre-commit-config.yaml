@@ -26,10 +26,6 @@ repos:
 # - repo: https://github.com/adrienverge/yamllint.git
 #   rev: v1.26.3
 #   hooks:
-#     - id: yamllint
-#       args:
-# 	[
-# 	  "-d {extends: relaxed, rules: {line-length: disable}, ignore: chart}",
-# 	  "-s",
-# 	]
-#       files: \.(yaml|yml)$
+#      - id: yamllint
+#        args: ['-d {extends: relaxed, rules: {line-length: disable}}', '-s']
+#        files: \.(yaml|yml)$

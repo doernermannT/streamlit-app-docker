@@ -1,0 +1,9 @@
+[Unit]
+Description=Systemd service for the AGR application.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/service.sh
+
+[Install]
+WantedBy=multi-user.target
